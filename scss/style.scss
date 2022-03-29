@@ -34,11 +34,10 @@ nav {
 
 .portada {
   background-image: url(./img/portada.jpeg);
-  /* border-radius: 15%; */
+
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
-  /* grid-area: portada; */
 }
 
 ul {
@@ -52,9 +51,6 @@ li {
   font-size: 1.4rem;
   margin: 5px 12px;
 }
-/* li:hover {
-  transform: translate(-1px);
-} */
 
 ul ul {
   position: absolute;
@@ -79,39 +75,17 @@ ul li:hover ul {
   background-color: white;
 }
 
-.portada2 {
-  background-image: url(./img/portada2.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 600px;
-}
-.portada3 {
-  background-image: url(./img/portada3.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 600px;
-}
-
-.tecnologia section {
+.tecnologia1 {
+  color: antiquewhite;
+  padding: 3%;
+  background-color: black;
   height: 20rem;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  align-content: normal;
   justify-content: center;
   align-items: center;
 }
-.tecnologia section h4 {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 1rem;
-  text-align: left;
-}
-.tecnologia section p {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 1rem;
-  text-align: left;
-  width: 50%;
-}
+
 section h3 {
   text-align: center;
   color: whitesmoke;
@@ -126,24 +100,19 @@ main img {
 }
 
 .contenedor-cards {
-  /* display: flex;
-    flex-wrap: wrap; */
-
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-  /* grid-template-rows: repeat(4, auto); */
+
   justify-items: center;
   gap: 2rem;
 }
 .card {
   opacity: 0.4;
   border: 2px double grey;
-  /* justify-self: end; */
 }
 .card1 {
   opacity: 0.4;
   border: 2px double grey;
-  /* justify-self: start; */
 }
 
 .card:hover {
@@ -191,9 +160,7 @@ main img {
 .bannerimagen {
   flex: 1 1 30rem;
 }
-/* .confort2 {
-  flex: 1 1 30rem;
-} */
+
 .confort h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
@@ -204,21 +171,11 @@ main img {
   padding: 1rem;
   text-align: left;
 }
-/* .texto2 {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  margin: 3rem;
-  gap: 5rem;
-  grid-area: texto2;
-} */
+
 .banner2 {
   width: 440px;
   height: 240px;
 }
-
-/* .confort2 {
-  text-align: right; */
 
 .confort2 h2 {
   font-family: Arial, Helvetica, sans-serif;
@@ -237,38 +194,41 @@ main img {
   align-items: center;
   padding: 1rem;
 }
-.contact h3 {
-  color: black;
+.contact {
+  color: antiquewhite;
+}
+.formularios {
+  background-color: black;
+  color: antiquewhite;
 }
 .forms {
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  color: antiquewhite;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 1rem;
 }
 .colorform {
-  background-color: rgb(71, 71, 71);
-  color: white;
+  width: 100vh;
+  background-color: #44424296;
+  color: antiquewhite;
   display: flex;
   flex-direction: column;
+
+  align-items: center;
+  padding: 5px;
 }
-.portada3 {
-  background-image: url(./img/portada3.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 600px;
-}
+
 .us {
   padding: 3%;
   background-color: black;
   height: 20rem;
   display: flex;
-  /* flex-direction: column; */
+
   flex-wrap: wrap;
   align-content: normal;
-  /* justify-content: space-evenly; */
+
   align-items: center;
 }
 .objetivos {
@@ -285,47 +245,14 @@ main img {
 .valores {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  grid-area: valor; */
 }
 .mision {
-  /* background-color: blue;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center; */
-
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  /* padding-left: 23%; */
-  /* display: flex;
-  flex-wrap: wrap;
 
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center; */
   grid-area: mision;
 }
-/* .mision h4{
-  background-color: blue;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
 
-/* .portadaUs {
-  background-image: url(./img/portadaUss.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 720px;
-} */
 .portadaUss {
   width: 100%;
 }
@@ -341,9 +268,7 @@ main img {
 .botoncito {
   border-radius: 80%;
 }
-/* ul .botoncito:hover ul {
-  transform: translate(-1px);
-} */
+
 .policies a:active {
   background-color: rgb(56, 56, 172);
   color: whitesmoke;
@@ -361,39 +286,7 @@ main img {
   grid-area: gridRedes;
 }
 
-/* footer {
-  background: rgb(219, 224, 232);
-  padding: 20px;
-  text-align: center;
-  word-spacing: 2px;
-} */
-
-/* .contenedor1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(3, auto);
-} */
-/* .contenedor1 {
-  /* width: 100%; */
-/* display: grid;
-  background-size: cover;
-  background-repeat: no-repeat;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  justify-content: end;
-  grid-template-areas: 
-  "contenedor1 contendedor1";
-} */
-/* 
-@media screen and (max-width: 600px) {
-  .contenedor-cards {
-    grid-template-columns: 1fr;
-  }
-} */
 @media screen and (max-width: 693px) {
-  /* body {
-    overflow: hidden;
-  } */
   .respHeader {
     flex-wrap: wrap;
     background: rgb(131, 131, 161);
@@ -425,9 +318,7 @@ main img {
   .valores p {
     font-size: small;
   }
-  /* .tecnologia section h4 {
-    margin-top: 20px;
-  } */
+
   .tecnologia1 {
     margin-top: 20px;
     display: flex;

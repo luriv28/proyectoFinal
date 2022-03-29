@@ -1,0 +1,306 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body {
+  background-color: whitesmoke;
+  font-family: "Raleway", sans-serif; }
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  background: #dbe0e8;
+  background: linear-gradient(90deg, rgba(219, 224, 232, 0.893995) 19%, rgba(154, 157, 158, 0.922006) 95%);
+  margin: 0 auto;
+  border-radius: 15px;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: gridHeader; }
+
+.logo img {
+  width: 6rem;
+  margin: 10px;
+  padding: 7px; }
+
+.lista {
+  display: flex;
+  justify-content: start; }
+
+.portada {
+  background-image: url(./img/portada.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px; }
+
+ul {
+  list-style: none;
+  padding: 1.2rem; }
+
+li {
+  display: inline-block;
+  position: relative;
+  font-size: 1.4rem;
+  margin: 5px 12px; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+ul ul li {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+a:hover {
+  color: #5f5faf;
+  font-weight: bold; }
+
+li:hover {
+  transform: translateY(-5px); }
+
+ul li:hover ul {
+  display: block;
+  background-color: white; }
+
+.tecnologia1 {
+  color: antiquewhite;
+  padding: 3%;
+  background-color: black;
+  height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+section h3 {
+  text-align: center;
+  color: whitesmoke;
+  height: 35px; }
+
+body {
+  background-color: white; }
+
+main img {
+  width: 250px;
+  height: 150px; }
+
+.contenedor-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  justify-items: center;
+  gap: 2rem; }
+
+.card {
+  opacity: 0.4;
+  border: 2px double grey; }
+
+.card1 {
+  opacity: 0.4;
+  border: 2px double grey; }
+
+.card:hover {
+  opacity: 100;
+  border: solid whitesmoke; }
+
+.card1:hover {
+  opacity: 100;
+  border: solid whitesmoke; }
+
+.seccion-zapatillas {
+  background-color: black;
+  padding-bottom: 2rem; }
+
+.seccion-zapatillas h1 {
+  text-align: center;
+  color: whitesmoke;
+  padding: 2rem; }
+
+.texto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 3rem;
+  gap: 5rem;
+  grid-area: texto; }
+
+.banner {
+  width: 440px;
+  height: 240px; }
+
+.confort {
+  flex: 1 1 30rem; }
+
+.texto2 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin: 3rem;
+  gap: 5rem; }
+
+.bannerimagen {
+  flex: 1 1 30rem; }
+
+.confort h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  padding: 1rem; }
+
+.confort p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+  text-align: left; }
+
+.banner2 {
+  width: 440px;
+  height: 240px; }
+
+.confort2 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  padding: 1rem; }
+
+.confort2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem; }
+
+.contact {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem; }
+
+.contact {
+  color: antiquewhite; }
+
+.formularios {
+  background-color: black;
+  color: antiquewhite; }
+
+.forms {
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem; }
+
+.colorform {
+  width: 100vh;
+  background-color: #44424296;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px; }
+
+.us {
+  padding: 3%;
+  background-color: black;
+  height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: normal;
+  align-items: center; }
+
+.objetivos {
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "valores" "mision"; }
+
+.valores {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.mision {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-area: mision; }
+
+.portadaUss {
+  width: 100%; }
+
+.mision h4 {
+  padding-bottom: 2rem; }
+
+.valores p {
+  margin: 2rem; }
+
+.iconitos {
+  padding-top: 1rem; }
+
+.botoncito {
+  border-radius: 80%; }
+
+.policies a:active {
+  background-color: #3838ac;
+  color: whitesmoke; }
+
+.gridRedes {
+  background: #dbe0e8;
+  padding: 20px;
+  text-align: center;
+  word-spacing: 2px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+  grid-area: gridRedes; }
+
+@media screen and (max-width: 693px) {
+  .respHeader {
+    flex-wrap: wrap;
+    background: #8383a1; }
+  ul ul {
+    position: relative;
+    display: none; }
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center; }
+  .gridRedes {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr; }
+  .objetivos {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "valores mision"; }
+  .valores p {
+    font-size: small; }
+  .tecnologia1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: center;
+    font-size: small; } }
+
+@media screen and (max-width: 456px) {
+  .valores p {
+    font-size: x-small; }
+  .mision p {
+    font-size: smaller; }
+  .tecnologia1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: center;
+    font-size: small; } }
