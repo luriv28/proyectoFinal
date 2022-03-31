@@ -121,7 +121,6 @@ main img {
 .contenedor-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-
   justify-items: center;
   gap: 2rem;
 }
@@ -205,39 +204,38 @@ main img {
   font-family: Arial, Helvetica, sans-serif;
   padding: 1rem;
 }
+.formularios {
+  background-color: black;
+  color: $bgfooter;
+}
 .contact {
+  @extend .formularios;
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
 }
-.contact {
-  color: antiquewhite;
-}
-.formularios {
-  background-color: black;
-  color: antiquewhite;
-}
+
 
 .forms {
-  font-family: Arial, Helvetica, sans-serif;
-  color: antiquewhite;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 1rem;
+  
+  @extend .formularios;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+  
 }
 .colorform {
-  width: 100%;
-  background-color: #44424296;
-  color: antiquewhite;
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-  padding: 5px;
+  @extend .formularios;
+    width: 100%;
+    background-color: #44424296;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
 }
 
 .us {
@@ -288,12 +286,6 @@ main img {
 .botoncito {
   border-radius: 80%;
 }
-
-.policies a:active {
-  background-color: #00000054;
-  color: whitesmoke;
-  border-radius: 2.5px;
-}
 .gridRedes {
   background: $footerColor;
   padding: 20px;
@@ -307,6 +299,12 @@ main img {
   grid-area: gridRedes;
 }
 
+
+.policies a:active {
+  background-color: #00000054;
+  color: whitesmoke;
+  border-radius: 2.5px;
+}
 @media screen and (max-width: 693px) {
   .respHeader {
     flex-wrap: wrap;

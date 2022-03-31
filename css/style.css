@@ -165,24 +165,19 @@ main img {
   font-family: Arial, Helvetica, sans-serif;
   padding: 1rem; }
 
+.formularios, .contact, .forms, .colorform {
+  background-color: black;
+  color: #f3dc58e0; }
+
 .contact {
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem; }
 
-.contact {
-  color: antiquewhite; }
-
-.formularios {
-  background-color: black;
-  color: antiquewhite; }
-
 .forms {
   font-family: Arial, Helvetica, sans-serif;
-  color: antiquewhite;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -191,7 +186,6 @@ main img {
 .colorform {
   width: 100%;
   background-color: #44424296;
-  color: antiquewhite;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -239,11 +233,6 @@ main img {
 .botoncito {
   border-radius: 80%; }
 
-.policies a:active {
-  background-color: #00000054;
-  color: whitesmoke;
-  border-radius: 2.5px; }
-
 .gridRedes {
   background: #dbe0e8;
   padding: 20px;
@@ -255,6 +244,11 @@ main img {
   align-items: center;
   justify-items: center;
   grid-area: gridRedes; }
+
+.policies a:active {
+  background-color: #00000054;
+  color: whitesmoke;
+  border-radius: 2.5px; }
 
 @media screen and (max-width: 693px) {
   .respHeader {
