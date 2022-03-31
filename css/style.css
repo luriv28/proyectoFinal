@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  background-color: whitesmoke;
+  background-color: black;
   font-family: "Raleway", sans-serif; }
 
 nav {
@@ -80,7 +80,7 @@ section h3 {
   height: 35px; }
 
 body {
-  background-color: white; }
+  background-color: #000000; }
 
 main img {
   width: 250px;
@@ -121,7 +121,7 @@ main img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 3rem;
+  margin: 0.5rem;
   gap: 5rem;
   grid-area: texto; }
 
@@ -306,3 +306,11 @@ main img {
   margin: 0.5rem; }
   .gridRedes a {
     color: #000000; }
+
+.principal {
+  color: #dbe0e8;
+  width: 100%; }
+
+.confortTitulo {
+  color: #f3dc58e0;
+  border: double; }

@@ -14,6 +14,16 @@ $text: #000000;
   }
 }
 
+@mixin pagePrincipal ($footerColor){
+  color: $footerColor;
+  width: 100%;
+  
+}
+@mixin encabezadosPrincipal ($footerColor) {
+  color: $footerColor;
+  border:double;
+
+}
 
 
 
@@ -23,7 +33,7 @@ $text: #000000;
   box-sizing: border-box;
 }
 body {
-  background-color: whitesmoke;
+  background-color: black;
   font-family: "Raleway", sans-serif;
 }
 nav {
@@ -83,7 +93,7 @@ a {
   color: black;
 }
 a:hover {
-  color: rgb(95, 95, 175);
+  color: #5f5faf;
   font-weight: bold;
 }
 li:hover {
@@ -111,7 +121,7 @@ section h3 {
   height: 35px;
 }
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #000000;
 }
 main img {
   width: 250px;
@@ -156,7 +166,7 @@ main img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 3rem;
+  margin: 0.5rem;
   gap: 5rem;
   grid-area: texto;
 }
@@ -374,3 +384,9 @@ main img {
   
 }
 
+.principal{
+  @include pagePrincipal($footerColor)
+}
+.confortTitulo{
+  @include encabezadosPrincipal($bgfooter)
+}
