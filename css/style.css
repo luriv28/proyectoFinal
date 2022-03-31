@@ -10,8 +10,7 @@ body {
 nav {
   display: flex;
   flex-wrap: wrap;
-  background: #dbe0e8;
-  background: linear-gradient(90deg, rgba(219, 224, 232, 0.893995) 19%, rgba(154, 157, 158, 0.922006) 95%);
+  background: linear-gradient(90deg, #f3dc58e0 10%, #f3dc58e0 90%);
   margin: 0 auto;
   border-radius: 15px;
   justify-content: space-between;
@@ -241,8 +240,9 @@ main img {
   border-radius: 80%; }
 
 .policies a:active {
-  background-color: #3838ac;
-  color: whitesmoke; }
+  background-color: #00000054;
+  color: whitesmoke;
+  border-radius: 2.5px; }
 
 .gridRedes {
   background: #dbe0e8;
@@ -304,3 +304,11 @@ main img {
     justify-content: center;
     align-items: center;
     font-size: small; } }
+
+.gridRedes {
+  background-color: #f3dc58e0;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem; }
+  .gridRedes a {
+    color: #000000; }

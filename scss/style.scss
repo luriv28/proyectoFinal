@@ -1,3 +1,22 @@
+//Variables
+$footerColor:#dbe0e8;
+$bgfooter: #f3dc58e0;
+$text: #000000;
+
+
+@mixin redes ($footerColor) {
+  background-color: $footerColor;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  a {
+    color: $text;
+  }
+}
+
+
+
+
 * {
   margin: 0%;
   padding: 0%;
@@ -10,11 +29,11 @@ body {
 nav {
   display: flex;
   flex-wrap: wrap;
-  background: rgb(219, 224, 232);
+  // background: #dbe0e8;
   background: linear-gradient(
     90deg,
-    rgba(219, 224, 232, 0.8939950980392157) 19%,
-    rgba(154, 157, 158, 0.9220063025210083) 95%
+    $bgfooter 10%,
+    $bgfooter 90%
   );
   margin: 0 auto;
   border-radius: 15px;
@@ -271,11 +290,12 @@ main img {
 }
 
 .policies a:active {
-  background-color: rgb(56, 56, 172);
+  background-color: #00000054;
   color: whitesmoke;
+  border-radius: 2.5px;
 }
 .gridRedes {
-  background: rgb(219, 224, 232);
+  background: $footerColor;
   padding: 20px;
   text-align: center;
   word-spacing: 2px;
@@ -348,3 +368,11 @@ main img {
     font-size: small;
   }
 }
+
+
+
+.gridRedes{
+  @include redes($bgfooter)
+  
+}
+
