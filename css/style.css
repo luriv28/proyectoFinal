@@ -251,6 +251,7 @@ main img {
   border-radius: 2.5px; }
 
 .footerRedes {
+  padding-top: 3rem;
   width: 100%;
   position: relative;
   bottom: 0; }
