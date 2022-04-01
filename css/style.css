@@ -290,7 +290,7 @@ main img {
     align-items: center;
     font-size: small; }
   .footerRedes {
-    margin-top: 1rem;
+    padding-top: 3rem;
     position: absolute;
     bottom: 0; } }
 
@@ -308,7 +308,7 @@ main img {
     align-items: center;
     font-size: small; }
   .footerRedes {
-    margin-top: 1rem;
+    padding-top: 3rem;
     position: absolute;
     bottom: 0; } }
 
