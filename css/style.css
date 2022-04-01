@@ -253,7 +253,6 @@ main img {
 .footerRedes {
   padding-top: 3rem;
   width: 100%;
-  position: relative;
   bottom: 0; }
 
 @media screen and (max-width: 768px) {
@@ -292,7 +291,6 @@ main img {
     font-size: small; }
   .footerRedes {
     padding-top: 3rem;
-    position: relative;
     bottom: 0; } }
 
 @media screen and (max-width: 456px) {
@@ -310,7 +308,6 @@ main img {
     font-size: small; }
   .footerRedes {
     padding-top: 3rem;
-    position: relative;
     bottom: 0; } }
 
 .gridRedes {
