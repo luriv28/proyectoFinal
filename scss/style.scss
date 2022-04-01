@@ -316,7 +316,12 @@ main img {
   color: whitesmoke;
   border-radius: 2.5px;
 }
-@media screen and (max-width: 693px) {
+.footerRedes{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+@media screen and (max-width: 768px) {
   .respHeader {
     flex-wrap: wrap;
     background: #8383a1;
@@ -359,7 +364,14 @@ main img {
     align-items: center;
     font-size: small;
   }
+  .footerRedes{
+    position: absolute;
+    bottom: 0;
+  }
+  
 }
+  
+
 @media screen and (max-width: 456px) {
   .valores p {
     font-size: x-small;
@@ -376,6 +388,11 @@ main img {
     align-items: center;
     font-size: small;
   }
+  .footerRedes{
+    position: absolute;
+    bottom: 0;
+  }
+ 
 }
 
 .gridRedes {
