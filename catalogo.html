@@ -40,79 +40,85 @@
   </head>
 
   <body>
-    <header>
-      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-          <div class="logo">
-            <img class="navbar-brand" src="./logo.png" alt="logo" />
+    <div class="portadas">
+      <div>
+        <img src="./img/carusel1.jpg" class="img-fluid portadas pt-5" alt="" />
+      </div>
+
+      <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+          <div class="container-fluid">
+            <div class="logo">
+              <img class="navbar-brand" src="./logo.png" alt="logo" />
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navegacion"
+              aria-controls="navegacion"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navegacion">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Novedades</a></li>
+                    <li>
+                      <a class="dropdown-item" href="catalogo.html">Catálogo</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Nosotros
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="tecnologia.html"
+                        >Tecnologia</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="us.html">Us</a></li>
+                  </ul>
+                </li>
+                <hr class="dropdown-divider" />
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navegacion"
-            aria-controls="navegacion"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navegacion">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Productos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Novedades</a></li>
-                  <li>
-                    <a class="dropdown-item" href="catalogo.html">Catálogo</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Nosotros
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="tecnologia.html"
-                      >Tecnologia</a
-                    >
-                  </li>
-                  <li><a class="dropdown-item" href="us.html">Us</a></li>
-                </ul>
-              </li>
-              <hr class="dropdown-divider" />
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <div>
-      <img src="./img/carusel1.jpg" class="img-fluid portadaUss pt-5" alt="" />
+        </nav>
+      </header>
     </div>
 
     <main class="seccion-zapatillas">
