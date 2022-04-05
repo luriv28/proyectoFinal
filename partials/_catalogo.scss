@@ -1,0 +1,33 @@
+.contenedor-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    justify-items: center;
+    gap: 2rem;
+  }
+  .card {
+    opacity: 0.4;
+    border: 2px double grey;
+  }
+  .card1 {
+    opacity: 0.4;
+    border: 2px double grey;
+  }
+  
+  .card:hover {
+    opacity: 100;
+    border: solid whitesmoke;
+  }
+  .card1:hover {
+    opacity: 100;
+    border: solid whitesmoke;
+  }
+  
+  .seccion-zapatillas {
+    background-color: black;
+    padding-bottom: 2rem;
+  }
+  .seccion-zapatillas h1 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 2rem;
+  }

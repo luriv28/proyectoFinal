@@ -1,0 +1,41 @@
+.us {
+    padding: 3%;
+    background-color: black;
+    height: 20rem;
+    display: flex;
+  
+    flex-wrap: wrap;
+    align-content: normal;
+  
+    align-items: center;
+  }
+  .objetivos {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "valores"
+      "mision";
+  }
+  .valores {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mision {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    grid-area: mision;
+  }
+  .mision h4 {
+    padding-bottom: 2rem;
+  }
+  .valores p {
+    margin: 2rem;
+  }
+  .iconitos {
+    padding-top: 1rem;
+  }

@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+  }
+  .portadas {
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    // background: #dbe0e8;
+    background: linear-gradient(
+      90deg,
+      $bgfooter 10%,
+      $bgfooter 90%
+    );
+    margin: 0 auto;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: gridHeader;
+    .logo img {
+      width: 6rem;
+      margin: 10px;
+      padding: 7px;
+    }
+  }
+ 
+  .container-fluid {
+    display: flex;
+    justify-content: start;
+    ul {
+      list-style: none;
+      padding: 1.2rem;
+    }
+    li {
+      display: inline-block;
+      position: relative;
+      font-size: 1.4rem;
+      margin: 5px 12px;
+    }
+    ul ul {
+      position: absolute;
+      display: none;
+    }
+    ul ul li {
+      display: block;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      color: #5f5faf;
+      font-weight: bold;
+    }
+    li:hover {
+      transform: translateY(-5px);
+    }
+    ul li:hover ul {
+      display: block;
+      background-color: white;
+    }
+  }
+  
+  

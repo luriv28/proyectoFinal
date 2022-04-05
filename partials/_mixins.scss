@@ -1,0 +1,32 @@
+@mixin redes ($footerColor) {
+    background-color: $footerColor;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    a {
+      color: $text;
+    }
+  }
+  
+  @mixin pagePrincipal ($footerColor){
+    color: $footerColor;
+    width: 100%;
+    
+  }
+  @mixin encabezadosPrincipal ($footerColor) {
+    color: $footerColor;
+    border:double;
+  
+  }
+
+  .gridRedes{
+    @include redes($bgfooter)
+    
+  }
+  
+  .principal{
+    @include pagePrincipal($footerColor)
+  }
+  .confortTitulo{
+    @include encabezadosPrincipal($bgfooter)
+  }

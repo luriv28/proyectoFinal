@@ -1,0 +1,74 @@
+@media screen and (max-width: 768px) {
+    .respHeader {
+      flex-wrap: wrap;
+      background: #8383a1;
+    }
+    ul ul {
+      position: relative;
+      display: none;
+    }
+  
+    .menu {
+      display: grid;
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    .gridRedes {
+      display: grid;
+      flex-wrap: wrap;
+      grid-template-columns: 1fr;
+    }
+    .objetivos {
+      height: 100%;
+      display: grid;
+      justify-content: center;
+      text-align: center;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "valores mision";
+    }
+    .valores p {
+      font-size: small;
+    }
+  
+    .tecnologia1 {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: normal;
+      justify-content: center;
+      align-items: center;
+      font-size: small;
+    }
+    .footerRedes{
+      padding-top: 3rem;
+      
+      bottom: 0;
+    }
+    
+  }
+    
+  
+  @media screen and (max-width: 456px) {
+    .valores p {
+      font-size: x-small;
+    }
+    .mision p {
+      font-size: smaller;
+    }
+    .tecnologia1 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: normal;
+      justify-content: center;
+      align-items: center;
+      font-size: small;
+    }
+    .footerRedes{
+      padding-top: 3rem;
+      bottom: 0;
+    }
+   
+  }
