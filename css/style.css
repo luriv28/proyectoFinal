@@ -211,14 +211,12 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; }
-
-section h3 {
-  text-align: center;
-  color: whitesmoke;
-  height: 35px; }
-
-body {
-  background-color: #000000; }
+  .tecnologia1 h4 {
+    text-align: center;
+    color: #f3dc58e0;
+    height: 35px; }
+  .tecnologia1 p {
+    color: whitesmoke; }
 
 main img {
   width: 250px;

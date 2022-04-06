@@ -7,16 +7,18 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+     h4 {
+      text-align: center;
+      color: $bgfooter;
+      height: 35px;
+    }
+    p{
+      color: whitesmoke;
+    }
   }
   
-  section h3 {
-    text-align: center;
-    color: whitesmoke;
-    height: 35px;
-  }
-  body {
-    background-color: #000000;
-  }
+ 
+
   main img {
     width: 250px;
     height: 150px;
