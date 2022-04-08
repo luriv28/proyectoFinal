@@ -35,7 +35,7 @@
       margin-top: 20px;
       display: flex;
       flex-direction: column;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       align-content: normal;
       justify-content: center;
       align-items: center;
@@ -48,6 +48,7 @@
     }
     
   }
+  
     
   
   @media screen and (max-width: 456px) {
@@ -72,3 +73,6 @@
     }
    
   }
+
+
+  

@@ -48,7 +48,7 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: normal;
     justify-content: center;
     align-items: center;
@@ -196,11 +196,10 @@ nav {
 .seccion-zapatillas {
   background-color: black;
   padding-bottom: 2rem; }
-
-.seccion-zapatillas h1 {
-  text-align: center;
-  color: whitesmoke;
-  padding: 2rem; }
+  .seccion-zapatillas h1 {
+    text-align: center;
+    color: #f3dc58e0;
+    padding: 2rem; }
 
 .tecnologia1 {
   color: antiquewhite;
@@ -259,7 +258,7 @@ main img {
   padding-top: 1rem; }
 
 .formularios, .contact, .forms, .colorform {
-  background-color: black;
+  background-color: #000000;
   color: #f3dc58e0; }
 
 .contact {
@@ -280,7 +279,7 @@ main img {
 
 .colorform {
   width: 100%;
-  background-color: #44424296;
+  background-color: #000000;
   display: flex;
   flex-direction: column;
   align-items: center;

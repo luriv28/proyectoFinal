@@ -1,3 +1,4 @@
+
 .contenedor-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
@@ -25,9 +26,9 @@
   .seccion-zapatillas {
     background-color: black;
     padding-bottom: 2rem;
-  }
-  .seccion-zapatillas h1 {
-    text-align: center;
-    color: whitesmoke;
-    padding: 2rem;
-  }
+    h1{
+      text-align: center;
+      color: $bgfooter;
+      padding:2rem;
+    }
+ }
