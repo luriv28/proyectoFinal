@@ -213,6 +213,9 @@ nav {
   .tecnologia1 p {
     color: whitesmoke; }
 
+.botonTec {
+  color: #f3dc58e0; }
+
 main img {
   width: 250px;
   height: 150px; }
