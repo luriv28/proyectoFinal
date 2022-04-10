@@ -86,7 +86,6 @@ nav {
   flex-wrap: wrap;
   background: linear-gradient(90deg, #f3dc58e0 10%, #f3dc58e0 90%);
   margin: 0 auto;
-  border-radius: 15px;
   justify-content: space-between;
   align-items: center;
   grid-area: gridHeader; }
@@ -203,17 +202,14 @@ nav {
 
 .tecnologia1 {
   color: antiquewhite;
-  padding: 3%;
   background-color: black;
-  height: 20rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; }
   .tecnologia1 h4 {
     text-align: center;
-    color: #f3dc58e0;
-    height: 35px; }
+    color: #f3dc58e0; }
   .tecnologia1 p {
     color: whitesmoke; }
 
@@ -224,14 +220,12 @@ main img {
 .us {
   padding: 3%;
   background-color: black;
-  height: 20rem;
   display: flex;
   flex-wrap: wrap;
   align-content: normal;
   align-items: center; }
 
 .objetivos {
-  height: 100%;
   display: grid;
   justify-content: center;
   text-align: center;
@@ -249,9 +243,15 @@ main img {
   grid-area: mision; }
 
 .mision h4 {
-  padding-bottom: 2rem; }
+  margin: 2rem; }
+
+.valores h4 {
+  margin: 2rem; }
 
 .valores p {
+  margin: 2rem; }
+
+.mision p {
   margin: 2rem; }
 
 .iconitos {

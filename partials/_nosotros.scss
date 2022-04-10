@@ -1,14 +1,14 @@
 .us {
     padding: 3%;
     background-color: black;
-    height: 20rem;
+    // height: 20rem;
     display: flex;
     flex-wrap: wrap;
     align-content: normal;
     align-items: center;
   }
   .objetivos {
-    height: 100%;
+    // height: 100%;
     display: grid;
     justify-content: center;
     text-align: center;
@@ -28,9 +28,15 @@
     grid-area: mision;
   }
   .mision h4 {
-    padding-bottom: 2rem;
+    margin: 2rem;
+  }
+  .valores h4 {
+    margin: 2rem;
   }
   .valores p {
+    margin: 2rem;
+  }
+  .mision p{
     margin: 2rem;
   }
   .iconitos {
