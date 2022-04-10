@@ -8,14 +8,12 @@ body {
   nav {
     display: flex;
     flex-wrap: wrap;
-    // background: #dbe0e8;
     background: linear-gradient(
       90deg,
       $bgfooter 10%,
       $bgfooter 90%
     );
     margin: 0 auto;
-    // border-radius: 15px;
     justify-content: space-between;
     align-items: center;
     grid-area: gridHeader;
