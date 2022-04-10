@@ -33,3 +33,23 @@
       align-items: center;
       padding: 5px;
   }
+  .botonera{
+    color: black;
+    padding: 10px;
+    background-color: $bgfooter;
+}
+.botoneraRoja{
+  color: black;
+  padding: 10px;
+  background-color: #ff4949;
+}
+.botonera:hover{
+  border: solid $bgfooter;
+  background-color: black;
+  color: $bgfooter;
+}
+.botoneraRoja:hover{
+  border: solid #ff4949 ;
+  background-color: black;
+  color: #ff4949;
+}

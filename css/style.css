@@ -213,12 +213,19 @@ nav {
   .tecnologia1 p {
     color: whitesmoke; }
 
-.botonTec {
-  color: #f3dc58e0; }
-
 main img {
   width: 250px;
   height: 150px; }
+
+.botonera {
+  color: black;
+  padding: 10px;
+  background-color: #f3dc58e0; }
+
+.botonera:hover {
+  border: solid #f3dc58e0;
+  background-color: black;
+  color: #f3dc58e0; }
 
 .us {
   padding: 3%;
@@ -287,6 +294,26 @@ main img {
   flex-direction: column;
   align-items: center;
   padding: 5px; }
+
+.botonera {
+  color: black;
+  padding: 10px;
+  background-color: #f3dc58e0; }
+
+.botoneraRoja {
+  color: black;
+  padding: 10px;
+  background-color: #ff4949; }
+
+.botonera:hover {
+  border: solid #f3dc58e0;
+  background-color: black;
+  color: #f3dc58e0; }
+
+.botoneraRoja:hover {
+  border: solid #ff4949;
+  background-color: black;
+  color: #ff4949; }
 
 .iconitos {
   padding-top: 1rem; }

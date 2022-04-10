@@ -14,10 +14,18 @@
       color: whitesmoke;
     }
   }
-  .botonTec{
-    color: $bgfooter;
-  }
   main img {
     width: 250px;
     height: 150px;
   }
+  .botonera{
+    color: black;
+    padding: 10px;
+    background-color: $bgfooter;
+}
+
+.botonera:hover{
+  border: solid $bgfooter;
+  background-color: black;
+  color: $bgfooter;
+}
