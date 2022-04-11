@@ -27,10 +27,7 @@
       grid-template-rows: 1fr;
       grid-template-areas: "valores mision";
     }
-    .valores p {
-      font-size: small;
-    }
-  
+    
     .tecnologia1 {
       margin-top: 20px;
       display: flex;
@@ -53,7 +50,7 @@
   
   @media screen and (max-width: 456px) {
     .valores p {
-      font-size: x-small;
+      font-size: smaller;
     }
     .mision p {
       font-size: smaller;
